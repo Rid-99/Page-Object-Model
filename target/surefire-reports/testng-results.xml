@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="29" passed="29" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-12T16:56:49 GMT-04:00" name="Surefire suite" finished-at="2023-09-12T17:07:10 GMT-04:00" duration-ms="621023">
+    <groups>
+    </groups>
+    <test started-at="2023-09-12T16:56:49 GMT-04:00" name="Surefire test" finished-at="2023-09-12T17:07:10 GMT-04:00" duration-ms="621023">
+      <class name="testclass.AddtoCartPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.AddtoCartPageTest@4b168fa9]" started-at="2023-09-12T17:03:25 GMT-04:00" name="setUp" finished-at="2023-09-12T17:03:44 GMT-04:00" duration-ms="18635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddedLabelTest()[pri:1, instance:testclass.AddtoCartPageTest@4b168fa9]" started-at="2023-09-12T17:03:44 GMT-04:00" name="verifyAddedLabelTest" finished-at="2023-09-12T17:03:46 GMT-04:00" duration-ms="2325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddedLabelTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testclass.AddtoCartPageTest@4b168fa9]" started-at="2023-09-12T17:03:46 GMT-04:00" name="afterMethod" finished-at="2023-09-12T17:03:47 GMT-04:00" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.AddtoCartPageTest@4b168fa9]" started-at="2023-09-12T17:03:47 GMT-04:00" name="setUp" finished-at="2023-09-12T17:04:05 GMT-04:00" duration-ms="18593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickonGoToBasketButtonTest()[pri:2, instance:testclass.AddtoCartPageTest@4b168fa9]" started-at="2023-09-12T17:04:05 GMT-04:00" name="clickonGoToBasketButtonTest" finished-at="2023-09-12T17:04:11 GMT-04:00" duration-ms="5152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonGoToBasketButtonTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testclass.AddtoCartPageTest@4b168fa9]" started-at="2023-09-12T17:04:11 GMT-04:00" name="afterMethod" finished-at="2023-09-12T17:04:11 GMT-04:00" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testclass.AddtoCartPageTest -->
+      <class name="testclass.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.HomePageTest@48524010]" started-at="2023-09-12T17:02:57 GMT-04:00" name="setUp" finished-at="2023-09-12T17:03:03 GMT-04:00" duration-ms="6564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:testclass.HomePageTest@48524010]" started-at="2023-09-12T17:03:03 GMT-04:00" name="verifyHomePageTitleTest" finished-at="2023-09-12T17:03:03 GMT-04:00" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testclass.HomePageTest@48524010]" started-at="2023-09-12T17:03:03 GMT-04:00" name="closeBrowser" finished-at="2023-09-12T17:03:04 GMT-04:00" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.HomePageTest@48524010]" started-at="2023-09-12T17:03:04 GMT-04:00" name="setUp" finished-at="2023-09-12T17:03:10 GMT-04:00" duration-ms="6025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="GoogleLogoImageTest()[pri:2, instance:testclass.HomePageTest@48524010]" started-at="2023-09-12T17:03:10 GMT-04:00" name="GoogleLogoImageTest" finished-at="2023-09-12T17:03:10 GMT-04:00" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleLogoImageTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testclass.HomePageTest@48524010]" started-at="2023-09-12T17:03:10 GMT-04:00" name="closeBrowser" finished-at="2023-09-12T17:03:10 GMT-04:00" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.HomePageTest@48524010]" started-at="2023-09-12T17:03:10 GMT-04:00" name="setUp" finished-at="2023-09-12T17:03:15 GMT-04:00" duration-ms="5107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ValidateLabelTest()[pri:3, instance:testclass.HomePageTest@48524010]" started-at="2023-09-12T17:03:15 GMT-04:00" name="ValidateLabelTest" finished-at="2023-09-12T17:03:15 GMT-04:00" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLabelTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testclass.HomePageTest@48524010]" started-at="2023-09-12T17:03:15 GMT-04:00" name="closeBrowser" finished-at="2023-09-12T17:03:16 GMT-04:00" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.HomePageTest@48524010]" started-at="2023-09-12T17:03:16 GMT-04:00" name="setUp" finished-at="2023-09-12T17:03:21 GMT-04:00" duration-ms="5204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchTest()[pri:4, instance:testclass.HomePageTest@48524010]" started-at="2023-09-12T17:03:21 GMT-04:00" name="searchTest" finished-at="2023-09-12T17:03:25 GMT-04:00" duration-ms="4452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testclass.HomePageTest@48524010]" started-at="2023-09-12T17:03:25 GMT-04:00" name="closeBrowser" finished-at="2023-09-12T17:03:25 GMT-04:00" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testclass.HomePageTest -->
+      <class name="testclass.SearchPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.SearchPageTest@7920ba90]" started-at="2023-09-12T17:06:14 GMT-04:00" name="setUp" finished-at="2023-09-12T17:06:24 GMT-04:00" duration-ms="9746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifysearchResultTitleTest()[pri:1, instance:testclass.SearchPageTest@7920ba90]" started-at="2023-09-12T17:06:24 GMT-04:00" name="verifysearchResultTitleTest" finished-at="2023-09-12T17:06:24 GMT-04:00" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysearchResultTitleTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testclass.SearchPageTest@7920ba90]" started-at="2023-09-12T17:06:24 GMT-04:00" name="closeBrowser" finished-at="2023-09-12T17:06:24 GMT-04:00" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.SearchPageTest@7920ba90]" started-at="2023-09-12T17:06:24 GMT-04:00" name="setUp" finished-at="2023-09-12T17:06:34 GMT-04:00" duration-ms="9828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="numberOfResultTest()[pri:2, instance:testclass.SearchPageTest@7920ba90]" started-at="2023-09-12T17:06:34 GMT-04:00" name="numberOfResultTest" finished-at="2023-09-12T17:06:34 GMT-04:00" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numberOfResultTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testclass.SearchPageTest@7920ba90]" started-at="2023-09-12T17:06:34 GMT-04:00" name="closeBrowser" finished-at="2023-09-12T17:06:34 GMT-04:00" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.SearchPageTest@7920ba90]" started-at="2023-09-12T17:06:34 GMT-04:00" name="setUp" finished-at="2023-09-12T17:06:44 GMT-04:00" duration-ms="9508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="watchImageTest()[pri:3, instance:testclass.SearchPageTest@7920ba90]" started-at="2023-09-12T17:06:44 GMT-04:00" name="watchImageTest" finished-at="2023-09-12T17:06:44 GMT-04:00" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- watchImageTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testclass.SearchPageTest@7920ba90]" started-at="2023-09-12T17:06:44 GMT-04:00" name="closeBrowser" finished-at="2023-09-12T17:06:44 GMT-04:00" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.SearchPageTest@7920ba90]" started-at="2023-09-12T17:06:44 GMT-04:00" name="setUp" finished-at="2023-09-12T17:06:54 GMT-04:00" duration-ms="9736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="watchNameTest()[pri:4, instance:testclass.SearchPageTest@7920ba90]" started-at="2023-09-12T17:06:54 GMT-04:00" name="watchNameTest" finished-at="2023-09-12T17:06:54 GMT-04:00" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- watchNameTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testclass.SearchPageTest@7920ba90]" started-at="2023-09-12T17:06:54 GMT-04:00" name="closeBrowser" finished-at="2023-09-12T17:06:54 GMT-04:00" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.SearchPageTest@7920ba90]" started-at="2023-09-12T17:06:54 GMT-04:00" name="setUp" finished-at="2023-09-12T17:07:04 GMT-04:00" duration-ms="10271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnWatchToPurchase()[pri:5, instance:testclass.SearchPageTest@7920ba90]" started-at="2023-09-12T17:07:04 GMT-04:00" name="clickOnWatchToPurchase" finished-at="2023-09-12T17:07:09 GMT-04:00" duration-ms="5202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnWatchToPurchase -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testclass.SearchPageTest@7920ba90]" started-at="2023-09-12T17:07:09 GMT-04:00" name="closeBrowser" finished-at="2023-09-12T17:07:10 GMT-04:00" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testclass.SearchPageTest -->
+      <class name="testclass.PurchasePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.PurchasePageTest@358c99f5]" started-at="2023-09-12T16:58:52 GMT-04:00" name="setUp" finished-at="2023-09-12T16:59:07 GMT-04:00" duration-ms="15413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyWatchName()[pri:1, instance:testclass.PurchasePageTest@358c99f5]" started-at="2023-09-12T16:59:07 GMT-04:00" name="verifyWatchName" finished-at="2023-09-12T16:59:08 GMT-04:00" duration-ms="824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWatchName -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testclass.PurchasePageTest@358c99f5]" started-at="2023-09-12T16:59:08 GMT-04:00" name="afterMethod" finished-at="2023-09-12T16:59:08 GMT-04:00" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.PurchasePageTest@358c99f5]" started-at="2023-09-12T16:59:08 GMT-04:00" name="setUp" finished-at="2023-09-12T16:59:24 GMT-04:00" duration-ms="15188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="viewImageTest()[pri:2, instance:testclass.PurchasePageTest@358c99f5]" started-at="2023-09-12T16:59:24 GMT-04:00" name="viewImageTest" finished-at="2023-09-12T16:59:31 GMT-04:00" duration-ms="7007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewImageTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testclass.PurchasePageTest@358c99f5]" started-at="2023-09-12T16:59:31 GMT-04:00" name="afterMethod" finished-at="2023-09-12T16:59:31 GMT-04:00" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.PurchasePageTest@358c99f5]" started-at="2023-09-12T16:59:31 GMT-04:00" name="setUp" finished-at="2023-09-12T16:59:47 GMT-04:00" duration-ms="15851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnchalkbandTest()[pri:3, instance:testclass.PurchasePageTest@358c99f5]" started-at="2023-09-12T16:59:47 GMT-04:00" name="clickOnchalkbandTest" finished-at="2023-09-12T16:59:49 GMT-04:00" duration-ms="2055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnchalkbandTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testclass.PurchasePageTest@358c99f5]" started-at="2023-09-12T16:59:49 GMT-04:00" name="afterMethod" finished-at="2023-09-12T16:59:49 GMT-04:00" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.PurchasePageTest@358c99f5]" started-at="2023-09-12T16:59:49 GMT-04:00" name="setUp" finished-at="2023-09-12T17:00:04 GMT-04:00" duration-ms="15336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnConnectivityOptionTest()[pri:4, instance:testclass.PurchasePageTest@358c99f5]" started-at="2023-09-12T17:00:04 GMT-04:00" name="clickOnConnectivityOptionTest" finished-at="2023-09-12T17:00:08 GMT-04:00" duration-ms="3292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnConnectivityOptionTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testclass.PurchasePageTest@358c99f5]" started-at="2023-09-12T17:00:08 GMT-04:00" name="afterMethod" finished-at="2023-09-12T17:00:08 GMT-04:00" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.PurchasePageTest@358c99f5]" started-at="2023-09-12T17:00:08 GMT-04:00" name="setUp" finished-at="2023-09-12T17:00:25 GMT-04:00" duration-ms="16870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnAddtoBasketTest()[pri:5, instance:testclass.PurchasePageTest@358c99f5]" started-at="2023-09-12T17:00:25 GMT-04:00" name="clickOnAddtoBasketTest" finished-at="2023-09-12T17:00:34 GMT-04:00" duration-ms="8984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAddtoBasketTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testclass.PurchasePageTest@358c99f5]" started-at="2023-09-12T17:00:34 GMT-04:00" name="afterMethod" finished-at="2023-09-12T17:00:34 GMT-04:00" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testclass.PurchasePageTest -->
+      <class name="testclass.GmailSignInPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.GmailSignInPageTest@3ee0fea4]" started-at="2023-09-12T17:00:34 GMT-04:00" name="setUp" finished-at="2023-09-12T17:01:06 GMT-04:00" duration-ms="31875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginEmailWithSpecialCharTest()[pri:1, instance:testclass.GmailSignInPageTest@3ee0fea4]" started-at="2023-09-12T17:01:06 GMT-04:00" name="loginEmailWithSpecialCharTest" finished-at="2023-09-12T17:01:10 GMT-04:00" duration-ms="3874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginEmailWithSpecialCharTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testclass.GmailSignInPageTest@3ee0fea4]" started-at="2023-09-12T17:01:10 GMT-04:00" name="afterMethod" finished-at="2023-09-12T17:01:10 GMT-04:00" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.GmailSignInPageTest@3ee0fea4]" started-at="2023-09-12T17:01:10 GMT-04:00" name="setUp" finished-at="2023-09-12T17:01:42 GMT-04:00" duration-ms="31789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithEmptyEmailTest()[pri:2, instance:testclass.GmailSignInPageTest@3ee0fea4]" started-at="2023-09-12T17:01:42 GMT-04:00" name="loginWithEmptyEmailTest" finished-at="2023-09-12T17:01:46 GMT-04:00" duration-ms="3533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEmptyEmailTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testclass.GmailSignInPageTest@3ee0fea4]" started-at="2023-09-12T17:01:46 GMT-04:00" name="afterMethod" finished-at="2023-09-12T17:01:46 GMT-04:00" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.GmailSignInPageTest@3ee0fea4]" started-at="2023-09-12T17:01:46 GMT-04:00" name="setUp" finished-at="2023-09-12T17:02:18 GMT-04:00" duration-ms="31592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithWrongEmailTest()[pri:3, instance:testclass.GmailSignInPageTest@3ee0fea4]" started-at="2023-09-12T17:02:18 GMT-04:00" name="loginWithWrongEmailTest" finished-at="2023-09-12T17:02:21 GMT-04:00" duration-ms="3758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongEmailTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testclass.GmailSignInPageTest@3ee0fea4]" started-at="2023-09-12T17:02:21 GMT-04:00" name="afterMethod" finished-at="2023-09-12T17:02:22 GMT-04:00" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.GmailSignInPageTest@3ee0fea4]" started-at="2023-09-12T17:02:22 GMT-04:00" name="setUp" finished-at="2023-09-12T17:02:53 GMT-04:00" duration-ms="30811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithWrongPhoneTest()[pri:4, instance:testclass.GmailSignInPageTest@3ee0fea4]" started-at="2023-09-12T17:02:53 GMT-04:00" name="loginWithWrongPhoneTest" finished-at="2023-09-12T17:02:56 GMT-04:00" duration-ms="3626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongPhoneTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testclass.GmailSignInPageTest@3ee0fea4]" started-at="2023-09-12T17:02:56 GMT-04:00" name="afterMethod" finished-at="2023-09-12T17:02:57 GMT-04:00" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testclass.GmailSignInPageTest -->
+      <class name="testclass.BasketOverViewTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.BasketOverViewTest@52aa2946]" started-at="2023-09-12T16:56:49 GMT-04:00" name="setUp" finished-at="2023-09-12T16:57:18 GMT-04:00" duration-ms="29070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyQuantityTest()[pri:1, instance:testclass.BasketOverViewTest@52aa2946]" started-at="2023-09-12T16:57:18 GMT-04:00" name="verifyQuantityTest" finished-at="2023-09-12T16:57:19 GMT-04:00" duration-ms="1062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQuantityTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testclass.BasketOverViewTest@52aa2946]" started-at="2023-09-12T16:57:19 GMT-04:00" name="afterMethod" finished-at="2023-09-12T16:57:19 GMT-04:00" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.BasketOverViewTest@52aa2946]" started-at="2023-09-12T16:57:19 GMT-04:00" name="setUp" finished-at="2023-09-12T16:57:43 GMT-04:00" duration-ms="24000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickonRemoveButtonTest()[pri:2, instance:testclass.BasketOverViewTest@52aa2946]" started-at="2023-09-12T16:57:43 GMT-04:00" name="clickonRemoveButtonTest" finished-at="2023-09-12T16:57:50 GMT-04:00" duration-ms="7146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonRemoveButtonTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testclass.BasketOverViewTest@52aa2946]" started-at="2023-09-12T16:57:50 GMT-04:00" name="afterMethod" finished-at="2023-09-12T16:57:51 GMT-04:00" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.BasketOverViewTest@52aa2946]" started-at="2023-09-12T16:57:51 GMT-04:00" name="setUp" finished-at="2023-09-12T16:58:15 GMT-04:00" duration-ms="24078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOncontinueShoppoingTest()[pri:3, instance:testclass.BasketOverViewTest@52aa2946]" started-at="2023-09-12T16:58:15 GMT-04:00" name="clickOncontinueShoppoingTest" finished-at="2023-09-12T16:58:20 GMT-04:00" duration-ms="5211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOncontinueShoppoingTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testclass.BasketOverViewTest@52aa2946]" started-at="2023-09-12T16:58:20 GMT-04:00" name="afterMethod" finished-at="2023-09-12T16:58:20 GMT-04:00" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.BasketOverViewTest@52aa2946]" started-at="2023-09-12T16:58:20 GMT-04:00" name="setUp" finished-at="2023-09-12T16:58:44 GMT-04:00" duration-ms="23996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnSignInAndCheckOutTest()[pri:4, instance:testclass.BasketOverViewTest@52aa2946]" started-at="2023-09-12T16:58:44 GMT-04:00" name="clickOnSignInAndCheckOutTest" finished-at="2023-09-12T16:58:51 GMT-04:00" duration-ms="6935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSignInAndCheckOutTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testclass.BasketOverViewTest@52aa2946]" started-at="2023-09-12T16:58:51 GMT-04:00" name="afterMethod" finished-at="2023-09-12T16:58:52 GMT-04:00" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testclass.BasketOverViewTest -->
+      <class name="testclass.ProductDetailPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.ProductDetailPageTest@23282c25]" started-at="2023-09-12T17:05:14 GMT-04:00" name="setUp" finished-at="2023-09-12T17:05:30 GMT-04:00" duration-ms="15882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyWatchName()[pri:1, instance:testclass.ProductDetailPageTest@23282c25]" started-at="2023-09-12T17:05:30 GMT-04:00" name="verifyWatchName" finished-at="2023-09-12T17:05:30 GMT-04:00" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWatchName -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testclass.ProductDetailPageTest@23282c25]" started-at="2023-09-12T17:05:30 GMT-04:00" name="afterMethod" finished-at="2023-09-12T17:05:30 GMT-04:00" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.ProductDetailPageTest@23282c25]" started-at="2023-09-12T17:05:30 GMT-04:00" name="setUp" finished-at="2023-09-12T17:05:46 GMT-04:00" duration-ms="15711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ViewImage3DTest()[pri:2, instance:testclass.ProductDetailPageTest@23282c25]" started-at="2023-09-12T17:05:46 GMT-04:00" name="ViewImage3DTest" finished-at="2023-09-12T17:05:58 GMT-04:00" duration-ms="12012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewImage3DTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testclass.ProductDetailPageTest@23282c25]" started-at="2023-09-12T17:05:58 GMT-04:00" name="afterMethod" finished-at="2023-09-12T17:05:58 GMT-04:00" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.ProductDetailPageTest@23282c25]" started-at="2023-09-12T17:05:58 GMT-04:00" name="setUp" finished-at="2023-09-12T17:06:13 GMT-04:00" duration-ms="14978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="buyButtonTest()[pri:3, instance:testclass.ProductDetailPageTest@23282c25]" started-at="2023-09-12T17:06:13 GMT-04:00" name="buyButtonTest" finished-at="2023-09-12T17:06:14 GMT-04:00" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyButtonTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testclass.ProductDetailPageTest@23282c25]" started-at="2023-09-12T17:06:14 GMT-04:00" name="afterMethod" finished-at="2023-09-12T17:06:14 GMT-04:00" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testclass.ProductDetailPageTest -->
+      <class name="testclass.BasketPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.BasketPageTest@1a84f40f]" started-at="2023-09-12T17:04:11 GMT-04:00" name="setUp" finished-at="2023-09-12T17:04:42 GMT-04:00" duration-ms="30831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEmptyLabelTest()[pri:1, instance:testclass.BasketPageTest@1a84f40f]" started-at="2023-09-12T17:04:42 GMT-04:00" name="verifyEmptyLabelTest" finished-at="2023-09-12T17:04:42 GMT-04:00" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyLabelTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testclass.BasketPageTest@1a84f40f]" started-at="2023-09-12T17:04:42 GMT-04:00" name="afterMethod" finished-at="2023-09-12T17:04:42 GMT-04:00" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testclass.BasketPageTest@1a84f40f]" started-at="2023-09-12T17:04:42 GMT-04:00" name="setUp" finished-at="2023-09-12T17:05:13 GMT-04:00" duration-ms="31114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickonGoToBasketButtonTest()[pri:2, instance:testclass.BasketPageTest@1a84f40f]" started-at="2023-09-12T17:05:13 GMT-04:00" name="clickonGoToBasketButtonTest" finished-at="2023-09-12T17:05:13 GMT-04:00" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonGoToBasketButtonTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testclass.BasketPageTest@1a84f40f]" started-at="2023-09-12T17:05:13 GMT-04:00" name="afterMethod" finished-at="2023-09-12T17:05:14 GMT-04:00" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testclass.BasketPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

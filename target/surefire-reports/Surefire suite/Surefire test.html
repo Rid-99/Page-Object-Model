@@ -1,0 +1,225 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>29/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 12 16:56:49 EDT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>621 seconds (621023 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testclass.GmailSignInPageTest.loginWithWrongPhoneTest()'><b>loginWithWrongPhoneTest</b><br>Test class: testclass.GmailSignInPageTest</td>
+<td></td>
+<td>3</td>
+<td>testclass.GmailSignInPageTest@3ee0fea4</td></tr>
+<tr>
+<td title='testclass.HomePageTest.searchTest()'><b>searchTest</b><br>Test class: testclass.HomePageTest</td>
+<td></td>
+<td>4</td>
+<td>testclass.HomePageTest@48524010</td></tr>
+<tr>
+<td title='testclass.SearchPageTest.numberOfResultTest()'><b>numberOfResultTest</b><br>Test class: testclass.SearchPageTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.SearchPageTest@7920ba90</td></tr>
+<tr>
+<td title='testclass.BasketOverViewTest.clickOnSignInAndCheckOutTest()'><b>clickOnSignInAndCheckOutTest</b><br>Test class: testclass.BasketOverViewTest</td>
+<td></td>
+<td>6</td>
+<td>testclass.BasketOverViewTest@52aa2946</td></tr>
+<tr>
+<td title='testclass.SearchPageTest.clickOnWatchToPurchase()'><b>clickOnWatchToPurchase</b><br>Test class: testclass.SearchPageTest</td>
+<td></td>
+<td>5</td>
+<td>testclass.SearchPageTest@7920ba90</td></tr>
+<tr>
+<td title='testclass.PurchasePageTest.clickOnAddtoBasketTest()'><b>clickOnAddtoBasketTest</b><br>Test class: testclass.PurchasePageTest</td>
+<td></td>
+<td>8</td>
+<td>testclass.PurchasePageTest@358c99f5</td></tr>
+<tr>
+<td title='testclass.HomePageTest.ValidateLabelTest()'><b>ValidateLabelTest</b><br>Test class: testclass.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.HomePageTest@48524010</td></tr>
+<tr>
+<td title='testclass.PurchasePageTest.clickOnchalkbandTest()'><b>clickOnchalkbandTest</b><br>Test class: testclass.PurchasePageTest</td>
+<td></td>
+<td>2</td>
+<td>testclass.PurchasePageTest@358c99f5</td></tr>
+<tr>
+<td title='testclass.AddtoCartPageTest.clickonGoToBasketButtonTest()'><b>clickonGoToBasketButtonTest</b><br>Test class: testclass.AddtoCartPageTest</td>
+<td></td>
+<td>5</td>
+<td>testclass.AddtoCartPageTest@4b168fa9</td></tr>
+<tr>
+<td title='testclass.AddtoCartPageTest.verifyAddedLabelTest()'><b>verifyAddedLabelTest</b><br>Test class: testclass.AddtoCartPageTest</td>
+<td></td>
+<td>2</td>
+<td>testclass.AddtoCartPageTest@4b168fa9</td></tr>
+<tr>
+<td title='testclass.BasketPageTest.verifyEmptyLabelTest()'><b>verifyEmptyLabelTest</b><br>Test class: testclass.BasketPageTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.BasketPageTest@1a84f40f</td></tr>
+<tr>
+<td title='testclass.SearchPageTest.watchImageTest()'><b>watchImageTest</b><br>Test class: testclass.SearchPageTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.SearchPageTest@7920ba90</td></tr>
+<tr>
+<td title='testclass.BasketOverViewTest.clickOncontinueShoppoingTest()'><b>clickOncontinueShoppoingTest</b><br>Test class: testclass.BasketOverViewTest</td>
+<td></td>
+<td>5</td>
+<td>testclass.BasketOverViewTest@52aa2946</td></tr>
+<tr>
+<td title='testclass.SearchPageTest.verifysearchResultTitleTest()'><b>verifysearchResultTitleTest</b><br>Test class: testclass.SearchPageTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.SearchPageTest@7920ba90</td></tr>
+<tr>
+<td title='testclass.GmailSignInPageTest.loginWithEmptyEmailTest()'><b>loginWithEmptyEmailTest</b><br>Test class: testclass.GmailSignInPageTest</td>
+<td></td>
+<td>3</td>
+<td>testclass.GmailSignInPageTest@3ee0fea4</td></tr>
+<tr>
+<td title='testclass.ProductDetailPageTest.verifyWatchName()'><b>verifyWatchName</b><br>Test class: testclass.ProductDetailPageTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.ProductDetailPageTest@23282c25</td></tr>
+<tr>
+<td title='testclass.PurchasePageTest.clickOnConnectivityOptionTest()'><b>clickOnConnectivityOptionTest</b><br>Test class: testclass.PurchasePageTest</td>
+<td></td>
+<td>3</td>
+<td>testclass.PurchasePageTest@358c99f5</td></tr>
+<tr>
+<td title='testclass.GmailSignInPageTest.loginWithWrongEmailTest()'><b>loginWithWrongEmailTest</b><br>Test class: testclass.GmailSignInPageTest</td>
+<td></td>
+<td>3</td>
+<td>testclass.GmailSignInPageTest@3ee0fea4</td></tr>
+<tr>
+<td title='testclass.ProductDetailPageTest.buyButtonTest()'><b>buyButtonTest</b><br>Test class: testclass.ProductDetailPageTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.ProductDetailPageTest@23282c25</td></tr>
+<tr>
+<td title='testclass.BasketPageTest.clickonGoToBasketButtonTest()'><b>clickonGoToBasketButtonTest</b><br>Test class: testclass.BasketPageTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.BasketPageTest@1a84f40f</td></tr>
+<tr>
+<td title='testclass.PurchasePageTest.verifyWatchName()'><b>verifyWatchName</b><br>Test class: testclass.PurchasePageTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.PurchasePageTest@358c99f5</td></tr>
+<tr>
+<td title='testclass.BasketOverViewTest.clickonRemoveButtonTest()'><b>clickonRemoveButtonTest</b><br>Test class: testclass.BasketOverViewTest</td>
+<td></td>
+<td>7</td>
+<td>testclass.BasketOverViewTest@52aa2946</td></tr>
+<tr>
+<td title='testclass.PurchasePageTest.viewImageTest()'><b>viewImageTest</b><br>Test class: testclass.PurchasePageTest</td>
+<td></td>
+<td>7</td>
+<td>testclass.PurchasePageTest@358c99f5</td></tr>
+<tr>
+<td title='testclass.SearchPageTest.watchNameTest()'><b>watchNameTest</b><br>Test class: testclass.SearchPageTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.SearchPageTest@7920ba90</td></tr>
+<tr>
+<td title='testclass.HomePageTest.verifyHomePageTitleTest()'><b>verifyHomePageTitleTest</b><br>Test class: testclass.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.HomePageTest@48524010</td></tr>
+<tr>
+<td title='testclass.BasketOverViewTest.verifyQuantityTest()'><b>verifyQuantityTest</b><br>Test class: testclass.BasketOverViewTest</td>
+<td></td>
+<td>1</td>
+<td>testclass.BasketOverViewTest@52aa2946</td></tr>
+<tr>
+<td title='testclass.GmailSignInPageTest.loginEmailWithSpecialCharTest()'><b>loginEmailWithSpecialCharTest</b><br>Test class: testclass.GmailSignInPageTest</td>
+<td></td>
+<td>3</td>
+<td>testclass.GmailSignInPageTest@3ee0fea4</td></tr>
+<tr>
+<td title='testclass.HomePageTest.GoogleLogoImageTest()'><b>GoogleLogoImageTest</b><br>Test class: testclass.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.HomePageTest@48524010</td></tr>
+<tr>
+<td title='testclass.ProductDetailPageTest.ViewImage3DTest()'><b>ViewImage3DTest</b><br>Test class: testclass.ProductDetailPageTest</td>
+<td></td>
+<td>12</td>
+<td>testclass.ProductDetailPageTest@23282c25</td></tr>
+</table><p>
+</body>
+</html>
