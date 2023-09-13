@@ -42,19 +42,7 @@ public class PurchasePageTest extends TestBase{
 	}
 	
 	@Test(priority = 3)
-	public void clickOnchalkbandTest() {
-		purchasepage.clickOnchalkActiveband();
-	}
-
-	@Test(priority = 4)
-	public void clickOnConnectivityOptionTest() throws InterruptedException {
-		purchasepage.clickOnConnectivityOption();
-	}
-
-	@Test(priority = 5)
 	public void clickOnAddtoBasketTest() throws InterruptedException {
-		purchasepage.clickOnchalkActiveband();
-		purchasepage.clickOnConnectivityOption();
 		purchasepage.clickOnAddtoBasket();
 	}
     @AfterMethod

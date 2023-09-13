@@ -86,7 +86,7 @@ public class HomePage extends TestBase {
 	public SearchPage googleStoreSearchBar(String s) throws InterruptedException {
 		searchbutton.click();
 		searchBar.sendKeys(s + Keys.ENTER);
-		Thread.sleep(4000);
+		Thread.sleep(3000);
 //		closeButton.click();
 		return new SearchPage();
 	}

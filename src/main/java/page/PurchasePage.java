@@ -68,10 +68,15 @@ public class PurchasePage extends TestBase{
 	}
 	public AddtoCartPage clickOnAddtoBasket() throws InterruptedException {
 		
+		clickOnchalkActiveband();
+		
+		clickOnConnectivityOption();
+		
 		//System.out.println(addToBasket.getLocation());
 		jse.executeScript("window.scrollBy(925, 960)");
 		Thread.sleep(3000);
 		addToBasket.click();
+		
 		return new AddtoCartPage();
 	}
 

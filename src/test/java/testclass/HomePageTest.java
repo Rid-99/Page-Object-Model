@@ -41,12 +41,8 @@ public class HomePageTest extends TestBase {
   }
   
   @Test(priority = 2)
-  public void GoogleLogoImageTest() {
-	  Assert.assertTrue(homepage.validateLogoImage());
-  }
-  
-  @Test(priority = 3)
   public void ValidateLabelTest() {
+	  Assert.assertTrue(homepage.validateLogoImage());
 	  Assert.assertTrue(homepage.validatePhoneLabel());
 	  Assert.assertTrue(homepage.validateearbudsLabel());
 	  Assert.assertTrue(homepage.validateTabletsLabel());
@@ -56,7 +52,7 @@ public class HomePageTest extends TestBase {
 	  Assert.assertTrue(homepage.validateOffersLabel());
   }
   
-  @Test(priority = 4)
+  @Test(priority = 3)
   public void searchTest() throws InterruptedException {
 	  homepage.googleStoreSearchBar(prop.getProperty("search"));
   }

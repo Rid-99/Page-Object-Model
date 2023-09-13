@@ -1,4 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 621.998 s - in TestSuite
+Tests run: 35, Failures: 2, Errors: 0, Skipped: 13, Time elapsed: 540.669 s <<< FAILURE! - in TestSuite
+testclass.BasketOverViewTest.setUp  Time elapsed: 41.139 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+testclass.BasketPageTest.setUp  Time elapsed: 40.953 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=114.0.5735.90)
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'Riddhi.local', ip: '2607:fea8:1b5e:6e00:0:0:0:a8bb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.90, chrome: {chromedriverVersion: 114.0.5735.16 (7e1ff058633f..., userDataDir: /var/folders/r0/r2qzcsf90x1...}, goog:chromeOptions: {debuggerAddress: localhost:53050}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b940276b9c2f6c9799e7f685783ac9ec
+	at testclass.BasketPageTest.setUp(BasketPageTest.java:39)
+

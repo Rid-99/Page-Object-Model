@@ -50,7 +50,7 @@ public class SearchPage extends TestBase{
 	
 	public ProductDetailPage clickOnGooglePixelWatch() throws InterruptedException {
 		watch.click();
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		return new ProductDetailPage();
 	}	
 	

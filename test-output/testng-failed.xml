@@ -6,13 +6,79 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="testclass.BasketPageTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="clickonGoToBasketButtonTest"/>
+          <include name="verifyEmptyLabelTest"/>
+        </methods>
+      </class> <!-- testclass.BasketPageTest -->
       <class name="testclass.GmailSignInPageTest">
         <methods>
+          <include name="loginWithWrongEmailTest"/>
+          <include name="loginWithEmptyEmailTest"/>
+          <include name="loginEmailWithSpecialCharTest"/>
           <include name="setUp"/>
           <include name="afterMethod"/>
           <include name="loginWithWrongPhoneTest"/>
         </methods>
       </class> <!-- testclass.GmailSignInPageTest -->
+      <class name="testclass.HomePageTest">
+        <methods>
+          <include name="ValidateLabelTest"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="setUp"/>
+          <include name="closeBrowser"/>
+          <include name="searchTest"/>
+        </methods>
+      </class> <!-- testclass.HomePageTest -->
+      <class name="testclass.AddtoCartPageTest">
+        <methods>
+          <include name="clickonGoToBasketButtonTest"/>
+          <include name="verifyAddedLabelTest"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testclass.AddtoCartPageTest -->
+      <class name="testclass.PurchasePageTest">
+        <methods>
+          <include name="clickOnAddtoBasketTest"/>
+          <include name="viewImageTest"/>
+          <include name="verifyWatchName"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testclass.PurchasePageTest -->
+      <class name="testclass.ProductDetailPageTest">
+        <methods>
+          <include name="verifyWatchName"/>
+          <include name="setUp"/>
+          <include name="ViewImage3DTest"/>
+          <include name="afterMethod"/>
+          <include name="buyButtonTest"/>
+        </methods>
+      </class> <!-- testclass.ProductDetailPageTest -->
+      <class name="testclass.BasketOverViewTest">
+        <methods>
+          <include name="clickOnSignInAndCheckOutTest"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="clickOncontinueShoppoingTest"/>
+          <include name="clickonRemoveButtonTest"/>
+          <include name="verifyQuantityTest"/>
+        </methods>
+      </class> <!-- testclass.BasketOverViewTest -->
+      <class name="testclass.SearchPageTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifysearchResultTitleTest"/>
+          <include name="verifyWatchImageAndNameTest"/>
+          <include name="clickOnWatchToPurchase"/>
+          <include name="setUp"/>
+          <include name="numberOfResultTest"/>
+        </methods>
+      </class> <!-- testclass.SearchPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

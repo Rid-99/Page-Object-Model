@@ -44,7 +44,7 @@ public class ProductDetailPage extends TestBase{
 	
 	public void clickon3DViewButton() throws InterruptedException {
 		//jse.executeScript("arguments[0].scrollIntoView(true);", viewIn3DButton);
-		Thread.sleep(4000);
+		Thread.sleep(3000);
 		viewIn3DButton.click();
 		Thread.sleep(7000);
 		new Actions(driver).clickAndHold().moveByOffset(15, 15).perform();
